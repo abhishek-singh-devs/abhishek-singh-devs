@@ -1,39 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
-  <title id="t">Abhishek Singh — Portfolio</title>
-  <desc id="d">Modern midnight blue and violet portfolio banner with geometric grid, connecting nodes, and the text Food Technology, AI Evaluation, Web Development.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/>
-      <stop offset="0.55" stop-color="#151b34"/>
-      <stop offset="1" stop-color="#24204b"/>
-    </linearGradient>
-    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7c82ff"/>
-      <stop offset="1" stop-color="#58d6c4"/>
-    </linearGradient>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#aab3ff" stroke-opacity=".09" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
-  <circle cx="1030" cy="130" r="180" fill="#7c82ff" opacity=".08"/>
-  <circle cx="1090" cy="270" r="120" fill="#58d6c4" opacity=".08"/>
-  <g fill="none" stroke="url(#acc)" stroke-width="3" opacity=".72">
-    <path d="M860 80 950 132 1040 80 1130 132"/>
-    <path d="M950 132 950 236 1040 288 1130 236"/>
-    <path d="M860 184 950 236 1040 184"/>
-    <circle cx="860" cy="80" r="8" fill="#7c82ff"/>
-    <circle cx="950" cy="132" r="8" fill="#58d6c4"/>
-    <circle cx="1040" cy="80" r="8" fill="#7c82ff"/>
-    <circle cx="1130" cy="132" r="8" fill="#58d6c4"/>
-    <circle cx="950" cy="236" r="8" fill="#7c82ff"/>
-    <circle cx="1040" cy="288" r="8" fill="#58d6c4"/>
-    <circle cx="1130" cy="236" r="8" fill="#7c82ff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Abhishek Singh — Food Technology and Digital Systems</title>
+<desc id="desc">A premium animated portfolio banner combining a glass laboratory flask, molecular nodes, data paths, and a dark graphite, mint, and amber palette.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#071414"/><stop offset=".55" stop-color="#0D2020"/><stop offset="1" stop-color="#101A1A"/>
+  </linearGradient>
+  <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#52E0C3"/><stop offset=".55" stop-color="#9AE8D7"/><stop offset="1" stop-color="#D3B26F"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DFFFF7" stop-opacity=".52"/><stop offset=".42" stop-color="#56DCC5" stop-opacity=".11"/><stop offset="1" stop-color="#D4A75D" stop-opacity=".24"/>
+  </linearGradient>
+  <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#EFC16E" stop-opacity=".9"/><stop offset="1" stop-color="#B97838" stop-opacity=".6"/>
+  </linearGradient>
+  <radialGradient id="halo"><stop stop-color="#3AD8BD" stop-opacity=".18"/><stop offset="1" stop-color="#3AD8BD" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#B7DDD4" stroke-opacity=".065"/></pattern>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="298" rx="21" fill="none" stroke="#4C7770" stroke-opacity=".5"/>
+<ellipse cx="985" cy="150" rx="255" ry="205" fill="url(#halo)"/>
+<circle cx="1030" cy="148" r="125" fill="#47D7BF" opacity=".05" filter="url(#soft)"/>
+<g font-family="Arial,Helvetica,sans-serif">
+  <circle cx="68" cy="58" r="5" fill="#53E0C3" filter="url(#glow)"><animate attributeName="opacity" values="1;.35;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  <text x="86" y="62" fill="#86A8A0" font-family="monospace" font-size="13" letter-spacing="3">SCIENCE / SOFTWARE / SYSTEMS</text>
+  <text x="65" y="151" fill="#F3F5EF" font-size="59" font-weight="700" letter-spacing="-2">ABHISHEK SINGH</text>
+  <rect x="67" y="174" width="565" height="3" rx="1.5" fill="url(#mint)"><animate attributeName="width" values="90;565;565" keyTimes="0;.72;1" dur="4.4s" repeatCount="indefinite"/></rect>
+  <text x="68" y="213" fill="#B9D7CD" font-size="18" font-weight="600" letter-spacing="1.1">FOOD TECHNOLOGY  ·  AI EVALUATION  ·  WEB</text>
+  <text x="68" y="248" fill="#7F9991" font-family="monospace" font-size="13" letter-spacing="1.5">QUALITY DATA → PRACTICAL DIGITAL TOOLS</text>
+</g>
+<g transform="translate(900 34)">
+  <g fill="none" stroke="#65DCC6" stroke-opacity=".42">
+    <ellipse cx="115" cy="112" rx="138" ry="53" transform="rotate(-29 115 112)" stroke-width="1.6"><animateTransform attributeName="transform" type="rotate" from="-29 115 112" to="331 115 112" dur="32s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="115" cy="112" rx="128" ry="82" transform="rotate(48 115 112)" stroke="#D8B16C" stroke-opacity=".3"><animateTransform attributeName="transform" type="rotate" from="48 115 112" to="-312 115 112" dur="42s" repeatCount="indefinite"/></ellipse>
+    <path d="M12 53L65 24 115 52 168 21 218 54M12 180L62 151 115 180 169 148 220 178" stroke-dasharray="3 7" opacity=".55"/>
   </g>
-  <rect x="70" y="72" width="7" height="210" rx="4" fill="url(#acc)"/>
-  <text x="108" y="145" fill="#f8faff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.6">ABHISHEK SINGH</text>
-  <text x="111" y="202" fill="#c5cafa" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="1.6">FOOD TECHNOLOGY · AI EVALUATION</text>
-  <text x="111" y="244" fill="#8fe6db" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="1.6">WEB DEVELOPMENT · DATA-DRIVEN THINKING</text>
-  <text x="111" y="294" fill="#a7acc5" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3">LEARN  /  BUILD  /  TEST  /  IMPROVE</text>
+  <g>
+    <path d="M94 29h42v34l43 91c8 17-4 35-23 35H75c-19 0-31-18-23-35l42-91z" fill="url(#glass)" stroke="#B9F4E7" stroke-opacity=".8" stroke-width="2"/>
+    <path d="M77 132c23-10 42 9 61 0 17-8 27-7 35-1l13 27c5 11-2 21-15 21H76c-13 0-20-10-14-22z" fill="url(#liquid)" opacity=".83"/>
+    <path d="M99 29h32M101 67l-31 68M132 67l32 68" stroke="#E8FFF8" stroke-opacity=".8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M89 151c15-7 26 5 38 0" fill="none" stroke="#FFF1C9" stroke-opacity=".75" stroke-width="2"/>
+    <circle cx="118" cy="111" r="4" fill="#F5D18F"><animate attributeName="cy" values="117;99;117" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="143" cy="139" r="3" fill="#E7C27E"><animate attributeName="cy" values="139;127;139" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="14" cy="53" r="5" fill="#57E0C4"><animate attributeName="r" values="4;7;4" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="218" cy="54" r="5" fill="#DDB36D"><animate attributeName="opacity" values=".35;1;.35" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="220" cy="178" r="4" fill="#57E0C4"/>
+    <circle cx="12" cy="180" r="4" fill="#DDB36D"/>
+  </g>
+  <g fill="#91AAA1" font-family="monospace" font-size="9" letter-spacing="1.3">
+    <text x="0" y="15">ANALYSE</text><text x="183" y="15">BUILD</text><text x="184" y="214">ITERATE</text>
+  </g>
+</g>
 </svg>
