@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
+<title id="title">Abhishek Singh profile terminal</title><desc id="desc">Animated terminal panel with education, industry exposure, interests, and current learning focus.</desc>
+<defs><linearGradient id="win" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1A19"/><stop offset="1" stop-color="#0A1315"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="1" y="1" width="898" height="278" rx="16" fill="url(#win)" stroke="#34544D"/>
+<path d="M1 43H899" stroke="#34544D"/>
+<circle cx="25" cy="22" r="5" fill="#E67B71"/><circle cx="44" cy="22" r="5" fill="#D9B65F"/><circle cx="63" cy="22" r="5" fill="#58D6B8"/>
+<text x="450" y="27" text-anchor="middle" font-family="monospace" font-size="11" fill="#75958B">abhishek@quality-lab — profile</text>
+<g font-family="monospace" font-size="14">
+<text x="29" y="75" fill="#55DCC1">➜</text><text x="53" y="75" fill="#D7B36D">~/profile</text><text x="135" y="75" fill="#E7EEE8">whoami --details</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.08;.16;1" dur="6s" repeatCount="indefinite"/><text x="54" y="112" fill="#7C9A90">education</text><text x="190" y="112" fill="#EDF4EE">B.Tech Food Technology · IILM University</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.2;.28;1" dur="6s" repeatCount="indefinite"/><text x="54" y="145" fill="#7C9A90">industry</text><text x="190" y="145" fill="#EDF4EE">Quality Assurance + Dairy Production · SARAS</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.34;.42;1" dur="6s" repeatCount="indefinite"/><text x="54" y="178" fill="#7C9A90">project</text><text x="190" y="178" fill="#56DCC1">Honey screening study</text><text x="385" y="178" fill="#8FA89D">/ student laboratory work</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.48;.56;1" dur="6s" repeatCount="indefinite"/><text x="54" y="211" fill="#7C9A90">team build</text><text x="190" y="211" fill="#DDB56D">Pawlytics</text><text x="286" y="211" fill="#8FA89D">/ frontend + UI contribution</text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.62;.7;1" dur="6s" repeatCount="indefinite"/><text x="54" y="244" fill="#7C9A90">now learning</text><text x="190" y="244" fill="#EDF4EE">Web testing · AI response evaluation · JavaScript</text></g>
+<rect x="54" y="256" width="9" height="13" rx="1" fill="#55DCC1" filter="url(#glow)"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</g></svg>
