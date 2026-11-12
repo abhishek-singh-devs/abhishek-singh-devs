@@ -1,12 +1,10 @@
 <!--
-Copy this file into a new PUBLIC repository named exactly:
-abhishek-singh-devs
-
-Keep profile-banner.svg in the repository root beside this README.md.
+GitHub profile README for abhishek-singh-devs.
+The animated banner file is profile-motion.gif in this repository.
 -->
 
 <div align="center">
-  <img src="profile-banner.svg" alt="Abhishek Singh — Food Technology, AI Evaluation and Web Development" width="100%" />
+  <img src="profile-motion.gif" alt="Animated 3D motion banner for Abhishek Singh — Food Technology, AI Evaluation and Web Development" width="100%" />
   
   <p>
     <a href="https://github.com/abhishek-singh-devs"><img src="https://img.shields.io/badge/GitHub-abhishek--singh--devs-181717?style=for-the-badge&logo=github" alt="GitHub profile"/></a>
