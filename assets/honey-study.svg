@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
+<title id="title">Honey adulteration screening study project</title><desc id="desc">A polished project card with three sample vials and reported moisture values for a student screening study.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111A18"/><stop offset="1" stop-color="#1C2119"/></linearGradient>
+<linearGradient id="amber" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F0C66C"/><stop offset="1" stop-color="#9F642E"/></linearGradient>
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#56DCC1"/><stop offset="1" stop-color="#DDB56D"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="898" height="278" rx="17" fill="url(#bg)" stroke="#5A4A2A"/>
+<text x="35" y="42" fill="#B69A65" font-family="monospace" font-size="11" letter-spacing="2.6">01 / ACADEMIC LAB STUDY</text>
+<text x="35" y="94" fill="#F4F1E7" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="700">HONEY SCREENING STUDY</text>
+<text x="37" y="124" fill="#A9B8AC" font-family="monospace" font-size="12">3 COMMERCIAL SAMPLES  ·  5 SCREENING METHODS</text>
+<rect x="35" y="153" width="480" height="2" fill="url(#line)" opacity=".8"/>
+<g font-family="monospace" font-size="12">
+<text x="37" y="184" fill="#90A89B">RECORDED MOISTURE VALUES</text>
+<text x="37" y="215" fill="#F2E4C4">DABUR</text><text x="185" y="215" fill="#EBC57C">19.51%</text>
+<text x="37" y="240" fill="#F2E4C4">AMUL</text><text x="185" y="240" fill="#EBC57C">16.00%</text>
+<text x="302" y="215" fill="#F2E4C4">SAFFOLA</text><text x="422" y="215" fill="#EBC57C">17.79%</text>
+</g>
+<g transform="translate(610 47)">
+<g stroke="#F1D6A0" stroke-opacity=".65" fill="none" stroke-width="2">
+<path d="M29 6h42v20l20 25v106q0 13-13 13H22q-13 0-13-13V51l20-25z" fill="#E8C273" fill-opacity=".05"/>
+<path d="M37 6h26M33 26h34"/>
+<path d="M15 98q20-12 40 0t40 0v59q0 10-12 10H27q-12 0-12-10z" fill="url(#amber)" stroke="none" opacity=".8"/>
+<path d="M125 6h42v20l20 25v106q0 13-13 13h-56q-13 0-13-13V51l20-25z" fill="#E8C273" fill-opacity=".05"/>
+<path d="M133 6h26M129 26h34"/>
+<path d="M111 100q20-11 40 0t40 0v57q0 10-12 10h-56q-12 0-12-10z" fill="url(#amber)" stroke="none" opacity=".8"/>
+<path d="M221 6h42v20l20 25v106q0 13-13 13h-56q-13 0-13-13V51l20-25z" fill="#E8C273" fill-opacity=".05"/>
+<path d="M229 6h26M225 26h34"/>
+<path d="M207 99q20-10 40 0t40 0v58q0 10-12 10h-56q-12 0-12-10z" fill="url(#amber)" stroke="none" opacity=".8"/>
+</g>
+<g fill="#D8C9A1" font-family="monospace" font-size="9" text-anchor="middle"><text x="50" y="196">DABUR</text><text x="146" y="196">AMUL</text><text x="242" y="196">SAFFOLA</text></g>
+</g>
+<text x="35" y="264" fill="#849A8D" font-family="Arial,Helvetica,sans-serif" font-size="10">Student observations only — screening tests do not prove purity or regulatory compliance.</text>
+</svg>
